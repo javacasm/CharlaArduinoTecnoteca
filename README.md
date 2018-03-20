@@ -59,6 +59,7 @@
 
 https://github.com/javacasm/ProgramarParaEducar/blob/master/OpenSource.md
 
+
 !
 
 ## ¿y si no tengo arduino?
@@ -102,3 +103,86 @@ https://github.com/javacasm/ArduinoBasico/blob/master/1.5%20Y%20si%20no%20tengo:
 -   una breadboard,
 -   cables de colores con conectores machos y hembras
 -   arduino Uno
+
+!
+
+# Software:
+
+IDE
+
+(instalación de driver en Windows)
+
+!
+
+# Primera prueba
+
+Ejemplo Blink
+
+!
+
+# Ahora con un led externo y en la patilla 9
+
+# Siempre con su resistencia!!!
+
+!
+# Programamos C++
+
+## pero todo está preparado para que sea sencillo
+
+!
+
+# Ejercicio: Kit
+
+## Conectamos 5 leds (con sus 5 resistencias)
+
+!
+
+
+# Ahora aprendemos a hacer que no todo sea digital
+
+    analogWrite
+
+(Es un truco llamado PWM)
+
+0 ----- 100 %
+0 ----- 255
+Rango de salida
+
+!
+
+# Vamos a leer voltajes
+
+analogRead
+
+Rangos de lectura
+0 ------ 5V
+0 ------ 1023
+
+
+!
+
+# Muchos  sensores se leen igual
+
+## Sólo necesitaremos saber convertir el voltaje en la magnitud física
+
+### Ejemplo TMP36 o LM35
+
+!
+
+## Ejercicio controlar brillo del led con el potenciometro
+
+Pista: Funcion Map
+
+!
+
+# Ejercicio: indicador de temperatura
+
+!
+
+# Librerías
+
+Ejemplo Servo
+
+Ejemplo pantalla LCD
+
+Ejemplo Sensor DHT
