@@ -1,13 +1,13 @@
-# Taller de iniciación a Arduino
+# Iniciación a Arduino
 
 
 ![OSL](./images/Logo_OSL_400.png)
 
 ![Biblioteca](./images/Lobo_Biblioteca_400.png)
 
-![URL Biblioteca](./images/Url_biblioteca.png)
-
 #### José Antonio Vacas @javacasm
+
+##### [github.com/javacasm/CharlaArduinoTecnoteca](https://github.com/javacasm/CharlaArduinoTecnoteca)
 
 ![Licencia CC](./images/Licencia_CC.png)
 
@@ -16,57 +16,38 @@
 
 # ¿Qué es arduino?
 
-
-![Arduino UNO](./images/Arduino_Uno_-_R3.jpg)
-
-!
-
-# ¿Qué es arduino?
-
-![Arduino UNO](./images/Arduino_Uno_-_R3.jpg)
-
-## + Entorno de programación
+![Arduino UNO](./images/Arduino_Uno_-_R3.png)
 
 !
 
-# ¿Qué es arduino?
-
-![Arduino UNO](./images/Arduino_Uno_-_R3.jpg)
-
-## + Entorno de programación
-
-## + Librerías (conjunto de código)
-
-!
-
-# ¿Qué es arduino?
-
-![Arduino UNO](./images/Arduino_Uno_-_R3.jpg)
+### Placa Arduino
 
 ### + Entorno de programación
 
 ### + Librerías (conjunto de código)
 
-### + Enorme documentación y ejemplos
+### + Gran documentación y ejemplos
 
 !
 
-## Todo totalmente OpenSource
-
-![OpenHardware](./images/ohw-logo-svg.png)
+## Totalmente OpenSource
 
 ![Open Hardware 2](./images/open_hardware_logo.png)
 
-https://github.com/javacasm/ProgramarParaEducar/blob/master/OpenSource.md
+* Diseño
+* Documentación
+* Codigo
+
+### [Open Source by @psicobyte_ ](http://www.psicobyte.com/descargas/MasterProfesorado.pdf)
 
 
 !
 
 ## ¿y si no tengo arduino?
 
-Simuladores
+[Simuladores](https://github.com/javacasm/ArduinoBasico/blob/master/1.5%20Y%20si%20no%20tengo:%20Emuladores%20y%20simuladores.html.md)
 
-https://github.com/javacasm/ArduinoBasico/blob/master/1.5%20Y%20si%20no%20tengo:%20Emuladores%20y%20simuladores.html.md
+tinkercad.com
 
 !
 
@@ -110,17 +91,65 @@ https://github.com/javacasm/ArduinoBasico/blob/master/1.5%20Y%20si%20no%20tengo:
 
 IDE
 
-(instalación de driver en Windows)
+[arduino.cc/en/Main/Software](http://www.arduino.cc/en/Main/Software)
+
+
+(instalación de driver en Windows) jiji
+
+!
+
+
+# ¿Qué es arduino?
+
+![Arduino UNO](./images/ArduinoPartes.png)
+
+!
+
+# ¿Qué tiene arduino?
+
+Microcontrolador ATMega328
+
+* 14 Entradas/Salidas digitales
+* 6 Entradas Analógicas 0-5V de 10bits
+* 32Kb de Memoria de programa
+* 2Kb de Memoria RAM
+* 512 bytes de EEPROM
+* CPU a 16MHz
+* Funciona a 5V
+* Conexión USB
+
 
 !
 
 # Primera prueba
 
-Ejemplo Blink
+Ejemplo 1. Básicos - > Blink
+
+![blink](./images/arduino_blink-slow.gif)
+
 
 !
 
-# Ahora con un led externo y en la patilla 9
+### Programando la placa
+
+* Conectamos la placa con el cable USB
+
+(instalación de driver en Windows) jiji
+
+En el menú herramientas
+
+* Seleccionamos el puerto
+* Seleccionamos el tipo de placa
+* Pulsamos el botón subir
+
+![arduino-upload.gif](./images/arduino_upload_button.png)
+
+
+!
+
+# Led externo y en el pin 9
+
+![LED ](./images/Led_bb.png)
 
 # Siempre con su resistencia!!!
 
@@ -181,8 +210,26 @@ Pista: Funcion Map
 
 # Librerías
 
-Ejemplo Servo
+* Instalamos una librería
+  * Gestor de librerías o Zip
 
-Ejemplo pantalla LCD
+* Usamos ejemplos
+  * Servo -> Servo
+  * Pantalla LCD - > LiquidCrystal
+  * Sensor DHT - > SimpleDHT
 
-Ejemplo Sensor DHT
+!
+
+# Para aprender más...
+
+#### &lt; publicidad &gt; by @javacasm
+
+## udemy.com/arduino-cero
+
+#### &lt; /publicidad &gt;
+
+## aprendiendoarduino.com
+
+## programarfacil.com
+
+## programoergosum.com
