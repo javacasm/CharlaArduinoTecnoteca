@@ -127,6 +127,7 @@ Ejemplo 1. Básicos - > Blink
 
 ![blink](./images/arduino_blink-slow.gif)
 
+    digitalWrite(pin_led,Estado); // Estado HIGH o LOW
 
 !
 
@@ -197,7 +198,7 @@ Veamos el código ....
 
 # No todo es digital
 
-    analogWrite
+    analogWrite(pin_led,brillo); // brillo entre 0 y 255
 
 (Es un truco llamado [PWM](./images/0_LPC1768_PWM.gif))
 
@@ -211,7 +212,8 @@ Ejemplo - > 1.Basic - > FADE
 
 # Leemos voltajes
 
-    analogRead
+    int valor = analogRead(pin_analogico);
+    // valor entre 0 y 1023
 
 Rangos de lectura
 
