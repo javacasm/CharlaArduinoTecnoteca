@@ -291,6 +291,15 @@ by Luis Llamas [luisllamas.es](https://www.luisllamas.es/medir-temperatura-con-a
   * Pantalla LCD - > LiquidCrystal
   * Sensor DHT - > SimpleDHT
 
+
+!
+
+## ¿Más allá de Arduino?
+
+#### ESP8266 o NodeMCU
+
+![NodeMCU_LoLin.png](./images/NodeMCU_LoLin.png)
+
 !
 
 Todos los esquemas con [Fritzing](http://fritzing.org/)
