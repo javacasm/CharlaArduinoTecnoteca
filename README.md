@@ -130,7 +130,7 @@ Ejemplo 1. Básicos - > Blink
 
 !
 
-### Programando la placa
+### Programamos la placa
 
 * Conectamos la placa con el cable USB
 
@@ -144,67 +144,140 @@ En el menú herramientas
 
 ![arduino-upload.gif](./images/arduino_upload_button.png)
 
+!
+
+## Código
+
+Veamos el código ....
+
+![Blink.png](./images/Blink.png)
 
 !
 
-# Led externo y en el pin 9
+# Led en el pin 9
 
 ![LED ](./images/Led_bb.png)
 
-# Siempre con su resistencia!!!
+## ¡¡¡ Resistencia Siempre !!!
+
+[Breadboards](./images/Sidekick_Breadboard_Internal_Connections.jpg)
+
+!
+
+## Código para led en 9
+
+![Blink_9](./images/Blink_9.png)
+
+
+!
+
+## Cuidados
+
+* Montaje sin alimentación
+* Led tiene polaridad
+* Resistencia de al menos 220 Ohmios
 
 !
 # Programamos C++
 
-## pero todo está preparado para que sea sencillo
+## Está preparado para que sea sencillo
 
 !
 
-# Ejercicio: Kit
+## Ejercicio: Kit o Cylon
 
-## Conectamos 5 leds (con sus 5 resistencias)
+#### 5 leds (con sus 5 resistencias)
+
+![Kit_cylon_bb.png](./images/Kit_cylon_bb.png)
+
+[Código](./images/kit.png)
 
 !
 
 
-# Ahora aprendemos a hacer que no todo sea digital
+# No todo es digital
 
     analogWrite
 
-(Es un truco llamado PWM)
+(Es un truco llamado [PWM](./images/0_LPC1768_PWM.gif))
 
 0 ----- 100 %
+
 0 ----- 255
-Rango de salida
+
+Ejemplo - > 1.Basic - > FADE
 
 !
 
-# Vamos a leer voltajes
+# Leemos voltajes
 
-analogRead
+    analogRead
 
 Rangos de lectura
-0 ------ 5V
-0 ------ 1023
 
+0 ------ 5V
+
+0 ------ 1023
 
 !
 
-# Muchos  sensores se leen igual
+# Potenciómetro
 
-## Sólo necesitaremos saber convertir el voltaje en la magnitud física
+![potenciometro.jpg](./images/potenciometro.jpg)
+
+Ejemplos -> 3. Analog -> AnalogInput
+
+!
+
+# Lo sensores igual
+
+#### Convertiremos voltaje a magnitud física
 
 ### Ejemplo TMP36 o LM35
 
-!
-
-## Ejercicio controlar brillo del led con el potenciometro
-
-Pista: Funcion Map
 
 !
 
-# Ejercicio: indicador de temperatura
+## LM35 - Montaje
+
+![LM35](./images/LM35_bb.png)
+
+!
+
+## LM35 - Codigo
+
+10 mV/C
+
+![CodigoLM35](./images/CodigoLM35.png)
+
+by Luis Llamas [luisllamas.es](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)
+
+!
+
+
+
+## Ejercicio:
+### Ccontrolar brillo con potenciometro
+
+![AnalogIn_PWMOut](./images/AnalogIn_PWMOut.png)
+
+
+!
+
+#### Ejercicio: indicador de temperatura
+
+* Leemos temperatura
+* "Mapeamos" en brillo del led
+* Usamos 2 leds (o led RGB) y
+  * A más calor más rojo
+  * A más frío más azul
+
+!
+
+#### Iindicador RGB temperatura
+
+
+![Temperatura_RGB.png](./images/Temperatura_RGB.png)
 
 !
 
@@ -217,6 +290,10 @@ Pista: Funcion Map
   * Servo -> Servo
   * Pantalla LCD - > LiquidCrystal
   * Sensor DHT - > SimpleDHT
+
+!
+
+Todos los esquemas con [Fritzing](http://fritzing.org/)
 
 !
 
